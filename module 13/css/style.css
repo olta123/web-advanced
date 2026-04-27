@@ -1,0 +1,68 @@
+/*Descendant combinator osht qikjo posht*/
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/*Child*/
+article > p{
+    background-color: red;
+}
+
+/*General Sibling*/
+article ~ p {
+    background-color: purple;
+    color: white;
+    padding: 20px
+}
+
+/* Adjacent Sibling*/
+article + p {
+    background-color: orange;
+}
+
+/*input:in-range {
+border: 3px solid green;
+}*/
+
+/*input:out-of-range {
+    border: 3px solid red;
+}*/
+
+/*input: required {
+    background-color: #9ee5f0;
+}*/
+
+input:focus {
+    background-color: yellow;
+}
+
+span:first-of-type {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/*span:first-letter {
+    color:red;
+}*/
+
+input:valid {
+    border: 2px solid green;
+}
+
+p::first-line {
+    color: blue;
+    font-size: 20px;
+}
+
+/* lloje te tera te pseodoklasave
+before
+after
+selection
+*/
+
+/*
+opacity: 0.5;
+*/
