@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f5f0;
+    color: #2c2c2c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: gold;
+}
+
+.main {
+    height: 610px;
+    background-image: url("art1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.main-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.main p {
+    color: white;
+    margin: 20px 0;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.art img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.gallery-intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery-intro h1 {
+    font-size: 40px;
+}
+
+.gallery-intro p {
+    color: #555;
+    margin-top: 8px;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.art {
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.art h3 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main h1 {
+        font-size: 35px;
+    }
+}

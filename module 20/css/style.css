@@ -78,3 +78,56 @@ nav ul li.active {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+    .main-heading a {
+        font-size: 13px;
+        padding: 25px;
+    }
+
+    .main-heading {
+        margin-top: 0;
+    }
+
+    .nav ul li.active {
+        padding-right: 0;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service-box {
+        flex-direction: column;
+    }
+
+    .title-box {
+        width: 90%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        width: 90%;
+        margin-left: auto;
+        margin: auto;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
