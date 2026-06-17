@@ -41,7 +41,7 @@ body {
 
 .main {
     height: 610px;
-    background-image: url("art1.png");
+    background-image: url("art.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -69,7 +69,7 @@ body {
 }
 
 .btn {
-    background: gold;
+    background: rgba(255, 187, 0, 0.701);
     color: black;
     padding: 12px 25px;
     text-decoration: none;
@@ -90,38 +90,88 @@ footer {
 
 .art img {
     width: 100%;
+    height: 320px;
+    object-fit: cover;
     border-radius: 8px;
-    display: block;
 }
 
 .gallery-intro {
     text-align: center;
-    padding: 50px 20px;
 }
 
 .gallery-intro h1 {
     font-size: 40px;
-}
-
-.gallery-intro p {
-    color: #555;
-    margin-top: 8px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .gallery {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .art {
     width: 300px;
-    margin: 30px auto;
-    text-align: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.art:hover {
+    border:3px solid gold;
 }
 
 .art h3 {
     margin-top: 10px;
     font-size: 14px;
     color: #555;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact p {
+    margin-top: 45px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.features div {
+    width: 30%;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #b8860b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #996f00;
 }
 
 @media (max-width: 768px) {
