@@ -121,7 +121,7 @@ footer {
 }
 
 .art:hover {
-    border:3px solid gold;
+    border-color:gold;
 }
 
 .art h3 {
@@ -141,25 +141,15 @@ footer {
     margin-top: 45px;
 }
 
-.features {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-.features div {
-    width: 30%;
-}
-
 form {
-    width: 60%;
-    margin: auto;
-}
+     width: 60%;
+      margin: auto;
+} 
 
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+     width: 100%;
+      padding: 10px;
+       margin: 10px 0;
 }
 
 button {
@@ -174,6 +164,88 @@ button:hover {
     background-color: #996f00;
 }
 
+.about-section h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 60px;
+}
+
+
+.about-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto 60px auto;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.about-layout {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.about-left {
+    width: 45%;
+}
+
+.about-left h2 {
+    margin-top: 20px;
+}
+
+.about-left p {
+    color: #444;
+    line-height: 1.6;
+}
+
+.about-right {
+    width: 55%;
+}
+
+.about-right img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.about-quote {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 800px;
+    font-style: italic;
+    font-size: 18px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial;
+    
+}
+
+th, td {
+    border: 1px solid chocolate;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+}
 @media (max-width: 768px) {
 
     .navbar {
