@@ -41,3 +41,56 @@ console.log(n)
 var o = 101;
 o--;
 console.log(onbeforeprint)
+
+//assignment operator
+var x1 = 15;
+x1+5
+x1 += 5
+console.log(x1)
+
+var x2 = 35
+x2/=5
+console.log(x2)
+
+//comparison operators
+var v = 5;
+var w = 5;
+console.log(v == w)
+
+var y1 = 6
+var y2 = 7
+console.log(x != y)
+
+var num1 = 100;
+var num2 = 10;
+console.log(num1 > num2)
+
+var num3 = 2;
+var num4 = 1;
+console.log(num3 < num4)
+
+var num5 = 123;
+var num6 = "123";
+console.log(num5 == num6) //checks for the same data type
+
+//string = text
+var firstName = "Digital"
+var lastname = "School"
+var fullName= firstName + " " + lastname
+console.log(fullName)
+
+//template literal
+var school = "Digital School";
+console.log('Hello from ${school}');
+
+//logical operators
+var age= 24;
+console.log(age >= 18 && age <= 65);
+
+var1 = 5;
+var var1 = 6;
+console.log(var1 == 5 || var2 == 5)
+
+var var3 = 9;
+var var4 = 10;
+console.log (!(var3 == var4))
