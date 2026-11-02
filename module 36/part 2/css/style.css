@@ -1,0 +1,13 @@
+.clicked{
+    width: 100px;
+    height: 150px;
+    padding: 20px;
+    background-color: rgb(220, 207, 207);
+}
+
+#square{
+    width: 100px;
+    height: 100px;
+    background: red;
+    color:white; 
+}
