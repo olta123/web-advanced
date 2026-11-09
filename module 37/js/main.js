@@ -5,7 +5,10 @@
 $("#sort").sortable();
 
 $(function() {
-    $("#accordion").accordion()
+    $("#accordion").accordion();
 })
 
-    $("#tabs").tabs();
+$("#tabs").tabs();
+
+
+
